@@ -1,0 +1,32 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* English : Replace the dots below by a selector targeting all the images of the page. */
+/* Français : Remplace les points ci-dessous par un sélecteur ciblant toutes les images de la page. */
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius : 50px/50px;      /* English : Replace with a property that makes the image borders look rounded. */
+            /* Français : Remplace par une propriété arrondissant les angles de l'image. */
+}
+
+
+
+/* English : Replace the dots below by a class named "hover-effect" with a :hover pseudo-class. This class has to target the first image and the last image of the page. */
+/* Français : Remplace les points ci-dessous par une classe "hover-effect" avec une pseudo-classe :hover. Cette classe doit cibler la première image et la troisième image de la page. */
+
+.hover-effect:hover {
+    opacity : 0.8;      /* English : Replace with a property responsible for opacity changes. */
+                    /* Français : Remplace par une propriété modifiant l'opacité. */
+    cursor: pointer;
+}
+
+/* English : Replace the dots below by a selector targeting the second image of the page. Do not use a class or an id! */
+/* Français : Remplace les points ci-dessous par un sélecteur ciblant la seconde image de la page. N'utilise pas de classe ou d'id ! */
+
+img:nth-child(3) {
+    filter : grayscale(1);  /* English : Replace with a property that makes the image look black & white. */
+                /* Français : Remplace par une propriété faisant paraître l'image en noir et blanc. */
+}
